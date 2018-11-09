@@ -27,5 +27,14 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="lab05-ex04.sqlite" uuid="7a010409-7e17-4ae4-80e3-9eed65f0a877">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/lab05-ex04.sqlite</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

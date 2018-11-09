@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2350d69-70d0-4158-bd86-0b9871da785d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/aula1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aula1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplo04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo01.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo02.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exemplo03.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo03.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/aula1$exemplo03.coverage" NAME="exemplo03 Coverage Results" MODIFIED="1541759716831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aula1$exemplo03.coverage" NAME="exemplo03 Coverage Results" MODIFIED="1541759865620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aula1$exemplo01.coverage" NAME="exemplo01 Coverage Results" MODIFIED="1540899662035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aula1$exemplo04.coverage" NAME="exemplo04 Coverage Results" MODIFIED="1541762348229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aula1$exemplo02.coverage" NAME="exemplo02 Coverage Results" MODIFIED="1540901147927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -30,30 +31,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lab05-ex01" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lab05-ex01" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lab05-ex01" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lab05-ex01" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="Pessoa: table" type="ffe0bd85:SqliteImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -69,19 +47,19 @@
         <counts>
           <entry key="Telefones" value="1" />
           <entry key="contato" value="2" />
-          <entry key="pessoa" value="2" />
-          <entry key="py" value="3" />
-          <entry key="sql" value="1" />
+          <entry key="pessoa" value="3" />
+          <entry key="py" value="4" />
+          <entry key="sql" value="2" />
           <entry key="telefones" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
+          <entry key="Database Element" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
-          <entry key="Scratch" value="1" />
+          <entry key="Python" value="4" />
+          <entry key="Scratch" value="2" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
@@ -89,7 +67,7 @@
         <counts>
           <entry key="cell" value="53" />
           <entry key="dummy" value="2" />
-          <entry key="py" value="1946" />
+          <entry key="py" value="2862" />
           <entry key="sql" value="27" />
           <entry key="txt" value="10" />
         </counts>
@@ -97,7 +75,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1946" />
+          <entry key="Python" value="2862" />
           <entry key="SQL" value="27" />
           <entry key="Scratch" value="53" />
         </counts>
@@ -136,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exemplo03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="22" selection-end-column="54" />
+            <state>
+              <caret selection-end-column="23" />
               <folding>
                 <element signature="e#25#73#0" expanded="true" />
               </folding>
@@ -148,8 +126,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exemplo04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#114#195#0" expanded="true" />
+                <marker date="1541762296901" expanded="true" signature="640:990" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://fae1ea5f-02ef-4db3-b7a3-6f5ee18acb0d/schema/main/table/telefones">
+        <entry file="das://fae1ea5f-02ef-4db3-b7a3-6f5ee18acb0d/schema/main/table/pessoa">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -177,6 +168,7 @@
         <option value="$PROJECT_DIR$/exemplo01.py" />
         <option value="$PROJECT_DIR$/exemplo02.py" />
         <option value="$PROJECT_DIR$/exemplo03.py" />
+        <option value="$PROJECT_DIR$/exemplo04.py" />
       </list>
     </option>
   </component>
@@ -192,9 +184,11 @@
     <option name="width" value="1400" />
     <option name="height" value="812" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -245,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exemplo03">
+  <component name="RunManager" selected="Python.exemplo04">
     <configuration name="exemplo01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aula1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,13 +306,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exemplo04" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="aula1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exemplo04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.exemplo01" />
       <item itemvalue="Python.exemplo02" />
       <item itemvalue="Python.exemplo03" />
+      <item itemvalue="Python.exemplo04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exemplo04" />
         <item itemvalue="Python.exemplo03" />
         <item itemvalue="Python.exemplo02" />
         <item itemvalue="Python.exemplo01" />
@@ -340,7 +358,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1602" height="853" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22072072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -397,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://fae1ea5f-02ef-4db3-b7a3-6f5ee18acb0d/schema/main/table/pessoa">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/fae1ea5f-02ef-4db3-b7a3-6f5ee18acb0d.TABLE:main.Telefones">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -443,10 +453,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exemplo03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="22" selection-end-column="54" />
+        <state>
+          <caret selection-end-column="23" />
           <folding>
             <element signature="e#25#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fae1ea5f-02ef-4db3-b7a3-6f5ee18acb0d/schema/main/table/pessoa">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aea67570-3460-4cc9-b14e-4bfefa020597/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exemplo04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#114#195#0" expanded="true" />
+            <marker date="1541762296901" expanded="true" signature="640:990" ph="..." />
           </folding>
         </state>
       </provider>

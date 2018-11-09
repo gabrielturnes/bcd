@@ -25,8 +25,7 @@ if __name__ == '__main__':
     pessoas = session.query(Pessoa).filter(Pessoa.nome.ilike('J%')).all()
     for linha in pessoas:
         print("Nome {}\t".format(linha.nome))
-        for tel in linha.telefones_collection:  #
-            print("Telefone: {}".format(tel.numero))
+        
 
 
 
