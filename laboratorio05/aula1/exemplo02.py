@@ -6,10 +6,10 @@ from sqlalchemy.orm import sessionmaker
 
 
 if __name__ == '__main__':
-    engine = create_engine("sqlite:///lab05-aula1.sqlite")
+    engine = create_engine("sqlite:///lab05-aula1.sqlite") # sequencias obrigatório para banco de dados
     Session = sessionmaker(bind=engine)
     session = Session()
-    Base = automap_base()
+    Base = automap_base() # monta as classes
     Base.prepare(engine,reflect=True)
 
 #https://www.pythonsheets.com/notes/python-sqlalchemy.html

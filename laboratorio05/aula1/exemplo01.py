@@ -4,9 +4,9 @@
 
 import sqlite3
 
-if __name__ == '__main__':
+if __name__ == '__main__':   # execução pelo interpretador
     print("lab05 bcd")
-    conexao = sqlite3.connect('lab05-aula1.sqlite')
+    conexao = sqlite3.connect('lab05-aula1.sqlite')   #identido ao prepared Statement
     cursor = conexao.cursor()
 
     nome = ('Cardoso',)
