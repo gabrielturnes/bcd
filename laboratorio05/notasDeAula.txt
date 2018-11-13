@@ -2,3 +2,6 @@
 necessário adicionar no menu File>Settings>Project Interpreter
 opção add, na janela add python interpreter, adicionar um novo virtual env na pasta do projeto.
 
+
+repositorio poo java x python
+https://github.com/std29006/oo-java-e-python
