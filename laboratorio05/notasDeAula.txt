@@ -1,5 +1,5 @@
 .gitignore não salva arquivos do venv.
-necessário adicionar no menu File>Settings>Project Interpreter
+necessário adicionar no menu File>Settings>Project:>Project Interpreter
 opção add, na janela add python interpreter, adicionar um novo virtual env na pasta do projeto.
 
 
