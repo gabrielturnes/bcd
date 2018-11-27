@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+
+    {% block jumbotron %}
+
+        <div class="jumbotron">
+            <h1>Painel</h1>
+            <p><b>Usuário</b>: {{ user.get_username() }}</p>
+            <p><b>E-mail</b>: {{ user.get_email() }}</p>
+        </div>
+
+    {% endblock %}
+
+{% endblock %}
